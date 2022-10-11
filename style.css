@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Nunito:ital,wght@1,200&display=swap');
+
 * {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    background-clip: text;
+}
+body {
+    background-image: url("/assets/goop.jpeg")
+   
+}
+
+h1 {
+    font-family: Modak;
+    font-size: calc(3rem + 8vw);
+}
+h2 {
+    font-family: Nunito;
+    font-size: calc(2rem + 4vw);
+    color: black;
+}
 }
